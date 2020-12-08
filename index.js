@@ -78,10 +78,13 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(age){
-   const dogYears = 7*age
+function dogYears(age1){
+  return age1 * 7;{
+    console.log(dogYears(1));
+  }
+   let dogYears = 7*2}
    console.log(dogYears);
-}
+
 
 
 
@@ -141,8 +144,21 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+  let Msg = "Placeholder";
+  if(user === computer){
+    Msg = "it's a tie";
+    return Msg;
+  }
+  else if((user === 1 && computer === 2 )||( user === 2 && computer === 3 )||( user === 3 && computer === 1)){
+    Msg = "you lose!";
+    return Msg;
+  }
+  else if((user === 2 && computer === 1 )||( user === 3 && computer == 2 )||( user === 1 && computer === 3)){
+    Msg = "you win!";
+    return Msg;
+  }
 }
+
   
   
 
