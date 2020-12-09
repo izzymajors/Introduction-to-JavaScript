@@ -149,11 +149,11 @@ function game(user, computer){
     Msg = "it's a tie";
     return Msg;
   }
-  else if((user === 1 && computer === 2 )||( user === 2 && computer === 3 )||( user === 3 && computer === 1)){
+  else if((user === 'rock' && computer === 'paper' )||( user === 'paper' && computer === 'scissors' )||( user === 'scissors' && computer === 'rock')){
     Msg = "you lose!";
     return Msg;
   }
-  else if((user === 2 && computer === 1 )||( user === 3 && computer == 2 )||( user === 1 && computer === 3)){
+  else if((user === 'paper' && computer === 'rock' )||( user === 'scissors' && computer == 'paper' )||( user === 'rock' && computer === 'scissors')){
     Msg = "you win!";
     return Msg;
   }
