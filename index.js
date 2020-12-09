@@ -199,8 +199,8 @@ function miles( km){
  return km * .621;
 
   }
-  let km =10 * .}
-console.log(km);
+  //let km =10 *.}
+//console.log(km);
 
 
 //Task 5b - Feet to CM
